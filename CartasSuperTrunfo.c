@@ -48,24 +48,23 @@ printf("Digite o numero de pontos turisticos da carta 2 \n");
 scanf("%d", &pontoTuristicos2);
   // Área para exibição dos dados da cidade
 
-printf("Carta 1: \n")
-printf("Estado: %s", estado1 "\n")
-printf("Codigo: %s", codigoCarta1 "\n")
-printf("Nome da Cidade: %s", nomeCidade1" \n")
-printf("População: %d", populacao1 "\n")
-printf("Área: %f", area1 "\n")
-printf("PIB: %f", pib1 "\n")
-printf("Números de Pontos Túristicos: %d", pontoTuristicos1 "\n")
+printf("Carta 1:\n");
+printf("Estado: %s\n", estado1);
+printf("Codigo: %s\n", codigoCarta1);
+printf("Nome da Cidade: %s\n", nomeCidade1);
+printf("População: %d\n", populacao1);
+printf("Área: %.2f\n", area1);
+printf("PIB: %.2f\n", pib1);
+printf("Número de Pontos Turísticos: %d\n", pontoTuristicos1);
 
-
-printf("Carta 1: \n")
-printf("Estado: %s", estado2 "\n")
-printf("Codigo: %s", codigoCarta2 "\n")
-printf("Nome da Cidade: %s", nomeCidade2" \n")
-printf("População: %d", populacao2 "\n")
-printf("Área: %f", area2 "\n")
-printf("PIB: %f", pib2 "\n")
-printf("Números de Pontos Túristicos: %d", pontoTuristicos2 "\n")
+printf("\nCarta 2:\n");
+printf("Estado: %s\n", estado2);
+printf("Codigo: %s\n", codigoCarta2);
+printf("Nome da Cidade: %s\n", nomeCidade2);
+printf("População: %d\n", populacao2);
+printf("Área: %.2f\n", area2);
+printf("PIB: %.2f\n", pib2);
+printf("Número de Pontos Turísticos: %d\n", pontoTuristicos2);
 
 
 return 0;
